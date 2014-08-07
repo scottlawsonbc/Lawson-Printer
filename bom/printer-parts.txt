@@ -1,0 +1,12 @@
+REQUIRED PARTS:
+
+	Heavy duty brackets: 		HBLTDW5
+	Aluminium extrusion:			HFS5-2060-300
+	Linear slide:						SEL2BM20-400
+	Spacers:							SMKB4-20
+
+	Belt idler:							http://openbuildspartstore.com/smooth-idler-pulley-kit/
+	Belt clamp:						http://openbuildspartstore.com/belt-crimp-clamp/
+
+OPTIONAL PARTS:
+	Heat insulating sheets 200x400mm: 				HIFP1-400-200

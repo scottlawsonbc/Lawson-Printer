@@ -1,0 +1,138 @@
+{{Languages|Lawson}}
+
+{{RepRapNavigation|name=Lawson}}
+
+{{Development
+|name = Lawson
+|status = concept
+|image = Lawson-early-concept.JPG
+|description = Lawson is a printer designed for the highest accuracy, precision and mechanical stiffness.
+|license = [[GPL]]
+|author = Scottlawsonbc (design),
+|reprap = Lawson
+|categories =
+{{tag|Lawson}},
+{{tag|Lawson Development}},
+{{tag|Lawson Variations}},
+{{tag|Cartesian-XZ-head}},
+{{tag|RepRap}}
+}}
+
+==Introduction==
+Laswon is a 3D printer designed to have high mechanical stiffness, accuracy, and reliability. The Lawson design appeals to a wide audience through component substitutions, which can be tailored for higher accuracy and precision, or lower component costs.
+
+==Features==
+* High mechanical stiffness.
+* All mechanical components (excluding extruder + electronics) can be obtained from only two suppliers.
+* High accuracy printer. Linear motion components use high quality parts.
+* Easy to assemble
+* Components can be substituted to achieve higher quality or lower build costs, appealing to a wide audience.
+
+==Specifications==
+{| {{table}}
+| align="center" style="background:#f0f0f0;"|'''''
+| align="center" style="background:#f0f0f0;"|'''λ Variant'''
+| align="center" style="background:#f0f0f0;"|'''ϵ Variant'''
+|-
+| Mechanical parts (exc. motors, electronics, screws) ||26||26
+|-
+| Printed parst (exc. motors, electronics, screws) ||0||17
+|-
+| Hardware Cost (exc. motors, electronics, screws) ||$443.41||$369.52
+|-
+| Controller Electronics||Almost all RepRap||Almost all RepRap
+|-
+| Printing Size||200 x 200 x 240||200 x 200 x 240
+|-
+| Motors||4x NEMA-17 Stepper, 1x NEMA-23||5x NEMA-17 Stepper
+|-
+| Pro||High accuracy, speed, stiffness||Lower cost, high speed
+|-
+| Con||Higher cost||Lower mechanical stiffness and accuracy
+|-
+| 
+|}
+
+==Main improvements==
+The following is a list of the main improvements made upon the Prusa Mendel Iteration 2
+
+* Enhanced frame rigidity (prevents x backlash)
+* Easy assembly
+* Parametric files for multiple sizes/bearings or bushings
+
+== Development ==
+
+
+==History==
+
+==Printed Parts==
+
+The STL files to make the printer can be found at [[Clone_wars:_Prusa_iteraci%C3%B3n_3]]. 
+and here zipped up:  [[file:clonewars.zip]]
+Please note that the zipped files are not compatible with holes for the Z axis brackets in the Prusa3ALU-*.dxf drawings, at least the ones in the old/ folder in github. Also, the models for Y-axis brackets are for M8 rods. Compiling your own and investigating the Prusa github packages is highly recommended!
+
+
+RP every .scad in this directory (except complete-printer) once.
+Aim for 0.3mm layers and 2.2 extrusion width (width over thickness),
+for 0.66mm stroke width. Printer is tested at this setting.
+
+Using doc/complete-printer.scad as a visual clue and doc/manual.txt as a
+guide, build the printer.
+
+==Frame type==
+
+
+
+
+----
+
+===Single Sheet Frame===
+
+This is a frame created from a single sheet of metal, typically Aluminum, but can also be made from various Materials with a thickness greater than 6mm / 0.25 inch
+
+[[File:Prusai3-metalframe.jpg|thumb|none|alt=Prusa i3 with a single metal sheet style frame.|Prusa i3 with a single metal sheet style frame.]]
+
+
+'''pro:'''
+
+- Looks professional (subjective)
+
+'''con:'''
+
+- Requires specialised tools (e.g. Water flow jet cutter)
+
+- Less rigid connection between XZ-frame and Y-frame part, however this can be somewhat rectified by the TwelvePro variant, which provides additional frame support.
+
+
+
+----
+
+=== Wood Sheet frame ===
+
+ [[File:Prusa-i3-wood.jpg|thumb|none|alt=Wood Style Sheet Frame|Wood Style Sheet Frame]]
+[[File:Prusa-i3-wood-in-melamime.jpg|thumb|none|alt=Wood Style Sheet Frame Made Out Of Melamime|Wood Style Sheet Frame Made Out Of Melamime]]
+
+This is a version of the sheet frame that is designed to be laser cut out of wood or plastic (eg. acrylic) if you don't have access to a waterjet cutter. The only difference is that this version has support gussets on the back side of the vertical frame (the side that doesn't have the z threaded rods).
+
+Construction is the same.
+
+'''pro:'''
+
+- Looks professional (subjective)
+
+'''con:'''
+
+- Requires specialized tools (e.g.laser cutter)
+
+- Less rigid connection between XZ-frame and Y-frame part (Connects in the same way as the alu sheet frame)
+
+
+
+
+
+==Electronics==
+===Stepper Motors===
+
+
+
+===Controller Electronics===
