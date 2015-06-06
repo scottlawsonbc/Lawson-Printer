@@ -1,0 +1,28 @@
+
+Model revisions:
+  ☐ Add glass to print bed
+  ☐ Add brackets to Y axis motor extrusion
+  ☐ Add M5 screws to BOM
+  ☐ Consider removing support bracket behind lead screw?
+
+Construction:
+    Waterjet cut:
+        ☐ x-carriage plate
+        ☐ y-axis plate
+        ☐ larger frame plates
+        ☐ glass bed
+        Optional:
+            ☐ spool holder
+            ☐ electronics mount
+
+  ☐  Get coupler + lead screw
+
+
+Documentation:
+        Create pages for:
+            ☐ Lead screw assembly
+            ☐ Wheel assembly and alignment
+            ☐ Extruder assembly
+            ☐ Frame assembly
+            ☐ X-axis assembly
+            ☐ Y-axis assembly

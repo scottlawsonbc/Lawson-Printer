@@ -1,0 +1,78 @@
+{{Languages|Lawson}}
+
+{{RepRapNavigation|name=Lawson}}
+
+{{Development
+|name = Lawson
+|status = concept
+|image = Lawson-early-concept.JPG
+|description = Lawson is a printer designed to have high accuracy, precision, and mechanical stiffness.
+|license = [[GPL]]
+|author = Scottlawsonbc,
+|reprap = Lawson
+|categories =
+{{tag|Lawson}},
+{{tag|Lawson Development}},
+{{tag|Lawson Variations}},
+{{tag|Cartesian-XZ-head}},
+{{tag|RepRap}}
+}}
+
+==Introduction==
+Lawson is a 3D printer designed to have accuracy, precision, and mechanical stiffness. Components can be substituted to tailor the printer for higher accuracy and precision, or to lower build costs.
+
+==Features==
+* Stiff, rigid frame with no play
+* High accuracy and precision
+* Mechanical components can be purchased from two suppliers, minimizing the reliance on a middleman supplier.
+* Components can be substituted to achieve higher quality or lower build costs, appealing to a wide audience.
+
+==Specifications==
+{| {{table}}
+| align="center" style="background:#f0f0f0;"|'''Component'''
+| align="center" style="background:#f0f0f0;"|'''λ Variant'''
+| align="center" style="background:#f0f0f0;"|'''ϵ Variant'''
+|-
+| Mechanical parts (exc. motors, electronics, screws) ||26||26
+|-
+| Printed parts (exc. motors, electronics, screws) ||0||17
+|-
+| Hardware Cost (exc. motors, electronics, screws) ||$443.41||$369.52
+|-
+| Controller Electronics||Almost all RepRap||Almost all RepRap
+|-
+| Printing Size||200 x 200 x 240||200 x 200 x 240
+|-
+| Motors||4x NEMA-17 Stepper, 1x NEMA-23||5x NEMA-17 Stepper
+|-
+| Pro||High accuracy, speed, stiffness||Lower cost, high speed
+|-
+| Con||Higher cost||Lower mechanical stiffness and accuracy
+|-
+| 
+|}
+
+==Printed Parts==
+
+A number of Lawson components can be 3D printed instead of purchased. However, unlike other 3D printers such as the Prusa i3 and MendelMax, all printed components in the Lawson have off-the-shelf purchasable substitutes. This was done for two reasons. The first reason is that you can obtain higher mechanical stiffness by using metal components instead of printed components, although printed components are still effective. The second reason is that having a purchasable version of each part makes the design more accessible, minimizing the reliance on outside suppliers.
+
+==High precision design==
+
+The lead screws and linear rail are some of the Lawson's most expensive components. While cheaper components are available, the lead screws are critical to ensuring high accuracy, and the linear rail is key to making the print bed mechanically stiff. Other designs, such as the Prusa i3 or MendelMax 2.0, do not have the same mechanical stiffness that the Lawson printer has.
+
+==Frame type==
+
+
+===Single Sheet Frame===
+
+----
+
+=== Wood Sheet frame ===
+
+
+==Stepper Motors==
+The Lawson can use either 5x NEMA 17 or 4x NEMA 17 + 1x NEMA 23. Unless cost is an issue, it is recommended to use 4x NEMA 17 + 1x NEMA 23. Using a NEMA 23 will simplify the construction of the Y-axis while also increasing its performance characteristics.
+
+
+==Electronics==
+Almost all RepRap electronics such can be used to control the Lawson. Electronics confirmed to be working include the RUBMA Board, Printrboard, GEN7, RAMPS, and Rambo board.
