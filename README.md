@@ -2,7 +2,7 @@
 Open source high precision 3D printer
 
 # Introduction
-Lawson is a 3D printer design by [[User:Scottlawsonbc|Scott Lawson]] featuring excellent linear motion accuracy and a mechanically stiff frame. Compared with the [[MendelMax 2]], Lawson eliminates the need for custom sheet metal, slashes build costs, and improves the linear motion of the X, Y, and Z axes. It is easy to source components for the Lawson printer as 95% of the components can be sourced from only two suppliers.
+Lawson is a 3D printer design by [Scott Lawson](https://github.com/scottlawsonbc) featuring excellent linear motion accuracy and a mechanically stiff frame. Compared with the MendelMax 2, Lawson eliminates the need for custom sheet metal, slashes build costs, and improves the linear motion of the X, Y, and Z axes. It is easy to source components for the Lawson printer as 95% of the components can be sourced from only two suppliers.
 
 # Overview
 
@@ -26,11 +26,11 @@ To simplify component sourcing, 95% of the components can be obtained from only 
 This gives users the freedom to easily purchase Lawson components themselves, without needing to go through a middle-man supplier selling a kit. 
 
 ## X-axis
-The x-axis is a belt driven linear stage powered by a [[NEMA 17 Stepper motor|NEMA 17 stepper motor]]. The axis is constrained by OpenRail which is screwed into a length of 2020 aluminium extrusion. The x-carriage wheels have eccentric spacers that can be adjusted to prevent excessive friction. The belt tension can be adjusted easily by loosening the belt idler and sliding it left or right on the extrusion. While a direct drive extruder can be used, a bowden feed extruder is reccommended because it significantly reduces the mass of the x-carriage, permitting higher acceleration and speed values and reducing resonance.
+The x-axis is a belt driven linear stage powered by a NEMA 17 Stepper motor. The axis is constrained by OpenRail which is screwed into a length of 2020 aluminium extrusion. The x-carriage wheels have eccentric spacers that can be adjusted to prevent excessive friction. The belt tension can be adjusted easily by loosening the belt idler and sliding it left or right on the extrusion. While a direct drive extruder can be used, a bowden feed extruder is reccommended because it significantly reduces the mass of the x-carriage, permitting higher acceleration and speed values and reducing resonance.
 
 ## Y-axis
 
-The y-axis is a belt driven linear stage powered by a [[NEMA 23 Stepper motor|NEMA 23 stepper motor]] and is constrained by a precision Misumi linear slide. Compared to y-axes in other designs such as the [[MendelMax 2]], this triangular belt configuration permits higher speed and acceleration values, reduces component costs, and simplifies construction and maintenance access. The y-axis belt tension can be adjusted by loosening the screws on the NEMA 23 motor and sliding the motor left or right.
+The y-axis is a belt driven linear stage powered by a NEMA 23 Stepper motor and is constrained by a precision Misumi linear slide. Compared to y-axes in other designs such as the MendelMax 2, this triangular belt configuration permits higher speed and acceleration values, reduces component costs, and simplifies construction and maintenance access. The y-axis belt tension can be adjusted by loosening the screws on the NEMA 23 motor and sliding the motor left or right.
 
 The NEMA 23 was selected instead of a NEMA 17 because it permits a simplified mounting configuration and has generally higher performance characteristics.
 
@@ -47,28 +47,28 @@ In comparison, there is no accuracy specification available for the lead screws 
 
 > Unfortunately our lead screws do not have a tolerance specification for these dimensions. These are medium-grade leadscrews, they are better than the cheap screwes[sic] many people use on 3d printers, but they are not comparable to more expensive high end leadscrews. -Mike [from MakersToolWorks]
 
-===Printable Components===
+## Printable Components
 [[File:lawson-printable-components-overview.png|thumb|Optionally printable components are shown highlighted in blue.]]
 
 A number of Lawson components can be 3D printed to reduce build costs, with the caveat that printed components are less stiff than their metal counterparts. Unlike many other RepRap printers, ''all printable components are purchasable, but not all purchasable components are printable''. This means that printed components are not mandatory and that individuals without access to 3D printers, or individuals who prefer metal components are able to build a Lawson printer. The use of printed components can save up to approximately $120 USD in build costs.
 
 Printable components:
-*'''Qty:''' 2 '''Part:''' Heavy duty bracket
-*'''Qty:''' 1 '''Part:''' GT2 Pulley GPA22GT2060-B-H4
-*'''Qty:''' 1 '''Part:''' Shaft collar
-*'''Qty:''' 4 '''Part:''' 2-hole Thin bracket HBLSS5
-*'''Qty:''' 2 '''Part:''' 4-hole bracket HPTSSL5
-*'''Qty:''' 2 '''Part:''' 8-hole L bracket HPTLD5
-*'''Qty:''' 4 '''Part:''' 4-hole L bracket HPTLS5
-*'''Qty:''' 2 '''Part:''' 4-hole T bracket HPTTS5
-*'''Qty:''' 6 '''Part:''' 2-hole joining plate
-*'''Qty:''' 1 '''Part:''' 20mm gantry plate
-*'''Qty:''' 8 '''Part:''' 90deg vslot corner connector
-*'''Qty:''' 2 '''Part:''' 5mm x 6mm coupler
-*'''Qty:''' 4 '''Part:''' Belt crimp clamp
+* **Qty:** 2 **Part:** Heavy duty bracket
+* **Qty:** 1 **Part:** GT2 Pulley GPA22GT2060-B-H4
+* **Qty:** 1 **Part:** Shaft collar
+* **Qty:** 4 **Part:** 2-hole Thin bracket HBLSS5
+* **Qty:** 2 **Part:** 4-hole bracket HPTSSL5
+* **Qty:** 2 **Part:** 8-hole L bracket HPTLD5
+* **Qty:** 4 **Part:** 4-hole L bracket HPTLS5
+* **Qty:** 2 **Part:** 4-hole T bracket HPTTS5
+* **Qty:** 6 **Part:** 2-hole joining plate
+* **Qty:** 1 **Part:** 20mm gantry plate
+* **Qty:** 8 **Part:** 90deg vslot corner connector
+* **Qty:** 2 **Part:** 5mm x 6mm coupler
+* **Qty:** 4 **Part:** Belt crimp clamp
 
-==Electronics==
+## Electronics
 [[File:Lawson-electronics-mounting.jpg|thumb|The electronics can be mounted on the rear side of the z-axis extrusion.]]
-Almost all RepRap electronics such can be used to control the Lawson. Electronics confirmed to be working include [[RUMBA]], [[Printrboard]], [[Generation 7 Electronics|GEN7]], [[Arduino Mega Pololu Shield|RAMPS]], and [[Rambo]].
+Almost all RepRap electronics such can be used to control the Lawson. Electronics confirmed to be working include RUMBA, Printrboard, [Generation 7 Electronics, Arduino Mega Pololu Shield, and Rambo.
 
 One option for mounting electronics is the rear side of the z-axis aluminium extrusion. The electronics can be conveniently mounted close to the motors and endstops if mounting is on the same side as the x-axis and y-axis motors. With this configuration, there is easy access to the electronics for wiring any maintenance that may be required.
