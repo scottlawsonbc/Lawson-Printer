@@ -1,6 +1,8 @@
 # Lawson-Printer
 Open source high precision 3D printer
 
+![completed build](build-manual/build-photos/completed-build-small.png)
+
 # Introduction
 Lawson is a 3D printer design by [Scott Lawson](https://github.com/scottlawsonbc) featuring excellent linear motion accuracy and a mechanically stiff frame. Compared with the MendelMax 2, Lawson eliminates the need for custom sheet metal, slashes build costs, and improves the linear motion of the X, Y, and Z axes. It is easy to source components for the Lawson printer as 95% of the components can be sourced from only two suppliers.
 
@@ -37,8 +39,9 @@ The y-axis is a belt driven linear stage powered by a NEMA 23 Stepper motor and 
 The NEMA 23 was selected instead of a NEMA 17 because it permits a simplified mounting configuration and has generally higher performance characteristics.
 
 ## Z-axis
-[[File:Lawson-z-axis-closeup.JPG|thumb|Close-up of the z-axis which is constrained by V-slot wheels.]]
-The z-axis is a lead screw driven linear stage powered by two [[NEMA 17 Stepper motor|NEMA 17 stepper motors]] wired in parallel. The z-axis is accurate to ±150 µm over the full travel. The wheels have eccentric spacers that can be adjusted to prevent excessive friction from overconstaint. 
+![z-axis closeup](build-manual/renders/z-axis-closeup-small.png)
+
+The z-axis is a lead screw driven linear stage powered by two NEMA 17 Stepper motor wired in parallel. The z-axis is accurate to ±150 µm over the full travel. The wheels have eccentric spacers that can be adjusted to prevent excessive friction from overconstaint. 
 
 ### Comparison to MendelMax 2
 The lead screws in the Lawson printer design have the following accuracy specification:
@@ -50,9 +53,11 @@ In comparison, there is no accuracy specification available for the lead screws 
 > Unfortunately our lead screws do not have a tolerance specification for these dimensions. These are medium-grade leadscrews, they are better than the cheap screwes[sic] many people use on 3d printers, but they are not comparable to more expensive high end leadscrews. -Mike [from MakersToolWorks]
 
 ## Printable Components
-[[File:lawson-printable-components-overview.png|thumb|Optionally printable components are shown highlighted in blue.]]
+Printable components are highlighted in blue
 
-A number of Lawson components can be 3D printed to reduce build costs, with the caveat that printed components are less stiff than their metal counterparts. Unlike many other RepRap printers, ''all printable components are purchasable, but not all purchasable components are printable''. This means that printed components are not mandatory and that individuals without access to 3D printers, or individuals who prefer metal components are able to build a Lawson printer. The use of printed components can save up to approximately $120 USD in build costs.
+![printable components](build-manual/renders/printable-components-small.png)
+
+A number of Lawson components can be 3D printed to reduce build costs, with the caveat that printed components are less stiff than their metal counterparts. Unlike many other RepRap printers, *all printable components are purchasable, but not all purchasable components are printable*. This means that printed components are not mandatory and that individuals without access to 3D printers, or individuals who prefer metal components are able to build a Lawson printer. The use of printed components can save up to approximately $120 USD in build costs.
 
 Printable components:
 * **Qty:** 2 **Part:** Heavy duty bracket
@@ -70,7 +75,8 @@ Printable components:
 * **Qty:** 4 **Part:** Belt crimp clamp
 
 ## Electronics
-[[File:Lawson-electronics-mounting.jpg|thumb|The electronics can be mounted on the rear side of the z-axis extrusion.]]
-Almost all RepRap electronics such can be used to control the Lawson. Electronics confirmed to be working include RUMBA, Printrboard, [Generation 7 Electronics, Arduino Mega Pololu Shield, and Rambo.
+![electronics mounting](build-manual/renders/electronics-mounting-small.png)
+
+Almost all RepRap electronics such can be used to control the Lawson. Electronics confirmed to be working include RUMBA, Printrboard, Generation 7 Electronics, Arduino Mega Pololu Shield, and Rambo.
 
 One option for mounting electronics is the rear side of the z-axis aluminium extrusion. The electronics can be conveniently mounted close to the motors and endstops if mounting is on the same side as the x-axis and y-axis motors. With this configuration, there is easy access to the electronics for wiring any maintenance that may be required.
