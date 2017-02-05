@@ -30,6 +30,8 @@ The x-axis is a belt driven linear stage powered by a NEMA 17 Stepper motor. The
 
 ## Y-axis
 
+![y-axis mechanism](build-manual/renders/y-axis-overview-small.png)
+
 The y-axis is a belt driven linear stage powered by a NEMA 23 Stepper motor and is constrained by a precision Misumi linear slide. Compared to y-axes in other designs such as the MendelMax 2, this triangular belt configuration permits higher speed and acceleration values, reduces component costs, and simplifies construction and maintenance access. The y-axis belt tension can be adjusted by loosening the screws on the NEMA 23 motor and sliding the motor left or right.
 
 The NEMA 23 was selected instead of a NEMA 17 because it permits a simplified mounting configuration and has generally higher performance characteristics.
